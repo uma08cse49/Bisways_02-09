@@ -131,7 +131,7 @@ export default function Footer1() {
 													<Link href="/about-us">About</Link>
 												</li>
 												<li>
-													<Link href="/career">Services</Link>
+													<Link href="/services">Services</Link>
 												</li>
 												<li>
 													<Link href="/service-details">Case Studies</Link>
@@ -139,8 +139,8 @@ export default function Footer1() {
 												<li>
 													<Link href="/contact">Contact</Link>
 												</li>
-												<li><Link href="/case-study-01">Privacy Policy</Link></li>
-												<li><Link href="/case-study-01">Terms & Conditions</Link></li>
+												<li><Link href="/">Privacy Policy</Link></li>
+												<li><Link href="/">Terms & Conditions</Link></li>
 											</ul>
 										</div>
 									</div>
