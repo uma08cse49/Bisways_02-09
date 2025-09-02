@@ -1,22 +1,22 @@
-// import 'swiper/css';
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/effect-fade";
-// import "@/node_modules/react-modal-video/css/modal-video.css"
-// import "/public/css/bootstrap.css"
-// import "/public/css/swiper-bundle.min.css"
-// import "/public/css/odometer.min.css"
-// import "/public/css/magnific-popup.min.css"
-// import "/public/css/animate.min.css"
-// import "/public/css/animate2.min.css"
-// import "/public/css/textanimation.css"
-// import "/public/font/fonts.css"
-// import "/public/icons/icomoon/style.css"
-// import "/public/icons/flaticon/font/flaticon_Saylo.css"
-// import "/public/css/styles.css"
+import 'swiper/css';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
+import "@/node_modules/react-modal-video/css/modal-video.css"
+import "/public/css/bootstrap.css"
+import "/public/css/swiper-bundle.min.css"
+import "/public/css/odometer.min.css"
+import "/public/css/magnific-popup.min.css"
+import "/public/css/animate.min.css"
+import "/public/css/animate2.min.css"
+import "/public/css/textanimation.css"
+import "/public/font/fonts.css"
+import "/public/icons/icomoon/style.css"
+import "/public/icons/flaticon/font/flaticon_Saylo.css"
+import "/public/css/styles.css"
 import { Public_Sans } from 'next/font/google'
-import Head from 'next/head'
-import getConfig from 'next/config'
+// import Head from 'next/head'
+// import getConfig from 'next/config'
 
 const publicSans = Public_Sans({
     weight: ['300', '400', '500', '600', '700'],
@@ -31,7 +31,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <head>
+            {/* <head>
                 <link rel="stylesheet" href="/bisways/css/styles.css" />
                 <link rel="stylesheet" href="/bisways/css/bootstrap.css" />
                 <link rel="stylesheet" href="/bisways/css/textanimation.css" />
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
                 <link rel="stylesheet" href="/bisways/css/odometer.min.css" />
                 <link rel="stylesheet" href="/bisways/css/swiper-bundle.min.css" />
                 <link rel="stylesheet" href="/bisways/css/magnific-popup.min.css" />
-            </head>
+            </head> */}
 
             <body className={`${publicSans.className}`}>{children}</body>
         </html>

@@ -49,8 +49,8 @@ We help businesses adapt, grow, and lead in an ever-evolving digital landscape.
 									</p>
 
 									<div className="button-group">
-										<button class="consultant-btn">Talk to Consultant</button>
-										<button class="consultant-btn">Explore Our Capabilities</button>
+										<button className="consultant-btn">Talk to Consultant</button>
+										<button className="consultant-btn">Explore Our Capabilities</button>
 									</div>
 									{/* <div className="bot">
 										<Link href="/our-service" className="tf-btn">

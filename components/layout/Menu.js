@@ -12,8 +12,8 @@ export default function Menu() {
 	return (
 		<ul className="nav-list">
 			<li className={`item has-child ${isParentActive(["/home-2", "/home-3", "/home-4"])}`}>
-				<Link href="#"><span>Home</span></Link>
-				<ul className="sub-nav">
+				<Link href="/"><span>Home</span></Link>
+				{/* <ul className="sub-nav">
 					<li className={isActive("/")}>
 						<Link href="/"><span> Home Consulting </span></Link>
 					</li>
@@ -26,7 +26,7 @@ export default function Menu() {
 					<li className={isActive("/home-4")}>
 						<Link href="/home-4"><span> Marketing Consulting </span></Link>
 					</li>
-				</ul>
+				</ul> */}
 			</li>
 			{/* <li className={`item has-child ${isParentActive(["/team-member", "/team-details", "/pricing-table", "/career", "/awards", "/mission-vision", "/faqs", "/404"])}`}>
 				<Link href="#"><span>Pages</span></Link>
